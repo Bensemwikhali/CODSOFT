@@ -1,0 +1,91 @@
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+}
+.about-column {
+    width: 48%;
+    color: green;
+    background-color: black;
+    font-size: larger;
+    font-weight: bold;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+body{
+    min-height: 800px;
+    background-color: lightblue; 
+    border: 8px solid black; 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+
+}
+.box{
+    height: 200px;
+    border: 2px solid black;
+}
+footer{
+    background-color: black ;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid black;    
+    font-size: x-large;
+    font-weight: bold;  
+    color: white;   
+}
+#header{
+    background-color: black;
+    padding: 1rem;
+    border: 1px solid black;    
+    font-size: x-large;
+    font-weight: bold;  
+    color: white;
+    
+
+}
+nav{
+    
+    
+    padding: 1rem;
+    border: 1px solid black;
+    
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+#hero{
+    
+    padding: 1rem;
+    border: 1px solid black;    
+    font-size: x-large;
+    font-weight: bold;  
+    text-align: center;
+    background-image: url('img/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+Testimonials{
+    background-color: lightgray;
+    text-align: center;
+    border: 1px solid black;    
+    font-size: x-large;
+    font-weight: bold; 
+    padding: 0;
+    
+
+}
+footer ol{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    font-size: 50px;
+    color: white;
+}
